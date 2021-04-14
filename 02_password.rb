@@ -5,13 +5,13 @@ def signup
   return user_password
 end
 
-def login (password)
+def login(user_password)
   puts "Pour vous connecter au portail du FBI, veuillez renseigner votre mots de passe :"
   print "> "
-  str = gets.chomp
-  while password != str
+  user_input = gets.chomp
+  while user_password != user_input
     puts "Mauvais mot de passe, veuillez réessayer :"
-    str = gets.chomp
+    user_input = gets.chomp
   end
   return true
 end
