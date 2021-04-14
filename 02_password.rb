@@ -17,7 +17,9 @@ def login(user_password)
 end
 
 def welcome_screen 
+  puts " "
   puts "Bonjour agent, bienvenue dans ton dashboard secret !"
+  puts " "
 	puts "####################################################"
 	puts "#                                                  #"
 	puts "# Tu peux trouver ici tes missions confidentielles #"
